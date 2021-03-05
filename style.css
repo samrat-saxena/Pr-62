@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#myCarousel {
+    background-color: limegreen;
+    margin-bottom: 50px;
+    height: 250px;
+}
+img {
+    margin-bottom: 5px;
+}
+#myCarousel img {
+    margin-top: 35px;
+}
+

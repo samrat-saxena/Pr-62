@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Photo Gallery </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif; background-color: chartreuse; color: black;">
+    <h1> My Photo Gallery </h1>
+    <h4> My Creations </h4>
+    <hr style="border-color: blue; border-width: thick;">
+    <section id="grid-gallery">
+        <h1> Grid Gallery </h1>
+        <div>
+            <span>
+                <img src="Christmas.jpg">
+            </span>
+            <span>
+                <img src="Fans.jpg">
+            </span>
+        </div>
+        <div>
+            <span>
+                <img src="Friendship.jpg">
+            </span>
+            <span>
+                <img src="Line.jpg">
+            </span>
+        </div>
+        <div>
+            <span>
+                <img src="Speedwall.jpg">
+            </span>
+            <span>
+                <img src="Wall.jpg">
+            </span>
+        </div>
+    </section>
+    <hr style="border-color: blue; border-width: thick;">
+    <section id="slider-gallery">
+        <h1> Slider Gallery </h1>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://www.youtube.com/watch?v=fjM1OaPr8ig" target="_blank">
+                            <img src="Christmas.jpg" class="img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://www.youtube.com/watch?v=vJ-E2eqJgNQ" target="_blank">
+                            <img src="Fans.jpg" class="img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://www.youtube.com/watch?v=AIF9Hqzcq1Y" target="_blank">
+                            <img src="Friendship.jpg" class="img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://www.youtube.com/watch?v=wP6OD7fTEeA" target="_blank">
+                            <img src="Line.jpg" class="img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://www.youtube.com/watch?v=Trfukk_oCbo" target="_blank">
+                            <img src="Speedwall.jpg" class="img-responsive">
+                        </a>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://www.youtube.com/watch?v=JCzeiIZG6Is" target="_blank">
+                            <img src="Wall.jpg" class="img-responsive">
+                        </a>
+                    </center>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+</body></html>
